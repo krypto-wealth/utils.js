@@ -1,0 +1,30 @@
+{
+  "author": "Kwe Finance",
+  "bugs": "https://github.com/kwe-defi/utils.js/issues",
+  "contributors": [],
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "homepage": "https://github.com/kwe-defi/utils.js/tree/master/packages/hw-ledger#readme",
+  "license": "Apache-2.0",
+  "maintainers": [],
+  "name": "@krypto-wealth/hw-ledger",
+  "repository": {
+    "directory": "packages/hw-ledger",
+    "type": "git",
+    "url": "https://github.com/kwe-defi/utils.js.git"
+  },
+  "sideEffects": [
+    "./detectPackage.js",
+    "./detectPackage.cjs"
+  ],
+  "type": "module",
+  "version": "7.8.2",
+  "main": "index.js",
+  "dependencies": {
+    "@babel/runtime": "^7.16.0",
+    "@krypto-wealth/hw-ledger-transports": "7.8.2",
+    "@krypto-wealth/util": "7.8.2",
+    "@zondax/ledger-substrate": "^0.22.0"
+  }
+}

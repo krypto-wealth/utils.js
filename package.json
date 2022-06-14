@@ -1,0 +1,40 @@
+{
+  "author": "Kwe Finance",
+  "bugs": "https://github.com/kwe-defi/utils.js/issues",
+  "homepage": "https://github.com/kwe-defi/utils.js#readme",
+  "license": "Apache-2",
+  "packageManager": "yarn@3.0.1",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kwe-defi/utils.js.git"
+  },
+  "sideEffects": false,
+  "version": "7.8.2",
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "build": "polkadot-dev-build-ts",
+    "build:release": "polkadot-ci-ghact-build",
+    "build:rollup": "polkadot-exec-rollup --config",
+    "clean": "polkadot-dev-clean-build",
+    "lint": "polkadot-dev-run-lint",
+    "networks:crosscheck": "polkadot-dev-run-test packages/networks/src/crosscheck",
+    "networks:sync": "yarn build && node packages/networks/scripts/fromSubstrate.mjs",
+    "postinstall": "polkadot-dev-yarn-only",
+    "test": "polkadot-dev-run-test --coverage --runInBand --testPathIgnorePatterns crosscheck --testPathIgnorePatterns toMiniSecretCmp",
+    "test:mnemonicCmp": "polkadot-dev-run-test packages/util-crypto/src/mnemonic/toMiniSecretCmp.spec.ts",
+    "test:one": "polkadot-dev-run-test --runInBand"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.16.0",
+    "@polkadot/ts": "^0.4.13",
+    "@krypto-wealth/dev": "^0.63.19",
+    "@types/ed2curve": "^0.2.2",
+    "@types/jest": "^27.0.2"
+  },
+  "resolutions": {
+    "typescript": "^4.4.4"
+  }
+}

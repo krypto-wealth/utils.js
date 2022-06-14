@@ -1,0 +1,29 @@
+{
+  "author": "Kwe Finance",
+  "bugs": "https://github.com/kwe-defi/utils.js/issues",
+  "contributors": [],
+  "description": "A list of all available Substrate networks and their applicable prefixes",
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "homepage": "https://github.com/kwe-defi/utils.js/tree/master/packages/networks#readme",
+  "license": "Apache-2.0",
+  "maintainers": [],
+  "name": "@krypto-wealth/networks",
+  "repository": {
+    "directory": "packages/networks",
+    "type": "git",
+    "url": "https://github.com/kwe-defi/utils.js.git"
+  },
+  "sideEffects": false,
+  "type": "module",
+  "version": "7.8.2",
+  "main": "index.js",
+  "dependencies": {
+    "@babel/runtime": "^7.16.0"
+  },
+  "devDependencies": {
+    "@krypto-wealth/util": "7.8.2",
+    "@krypto-wealth/x-fetch": "7.8.2"
+  }
+}

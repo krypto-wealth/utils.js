@@ -1,0 +1,36 @@
+{
+  "extends": "@krypto-wealth/dev/config/tsconfig.json",
+  "exclude": [
+    "build/**/*",
+    "**/build/**/*"
+  ],
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@krypto-wealth/hw-ledger": [ "packages/ledger/src" ],
+      "@krypto-wealth/hw-ledger/*": [ "packages/ledger/src/*" ],
+      "@krypto-wealth/hw-ledger-transports": [ "packages/hw-ledger-transports/src/browser" ],
+      "@krypto-wealth/hw-ledger-transports/*": [ "packages/hw-ledger-transports/src/browser" ],
+      "@krypto-wealth/keyring": [ "packages/keyring/src" ],
+      "@krypto-wealth/keyring/*": [ "packages/keyring/src/*" ],
+      "@krypto-wealth/networks": [ "packages/networks/src" ],
+      "@krypto-wealth/networks/*": [ "packages/networks/src/*" ],
+      "@krypto-wealth/util-crypto": [ "packages/util-crypto/src" ],
+      "@krypto-wealth/util-crypto/*": [ "packages/util-crypto/src/*" ],
+      "@krypto-wealth/util": [ "packages/util/src" ],
+      "@krypto-wealth/util/*": [ "packages/util/src/*" ],
+      "@krypto-wealth/x-bundle/*": [ "packages/x-bundle/src/*" ],
+      "@krypto-wealth/x-fetch": [ "packages/x-fetch/src/browser" ],
+      "@krypto-wealth/x-global": [ "packages/x-global/src" ],
+      "@krypto-wealth/x-randomvalues": [ "packages/x-randomvalues/src/browser" ],
+      "@krypto-wealth/x-textdecoder": [ "packages/x-textdecoder/src/browser" ],
+      "@krypto-wealth/x-textencoder": [ "packages/x-textencoder/src/browser" ],
+      "@krypto-wealth/x-ws": [ "packages/x-ws/src/browser" ]
+    },
+    "skipLibCheck": true,
+    "typeRoots": [
+      "./node_modules/@polkadot/ts",
+      "./node_modules/@types"
+    ]
+  }
+}

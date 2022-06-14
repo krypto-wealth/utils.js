@@ -1,0 +1,31 @@
+{
+  "author": "Kwe Finance",
+  "bugs": "https://github.com/kwe-defi/utils.js/issues",
+  "contributors": [],
+  "description": "A cross-environment window.crypto.getRandomValues replacement",
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "homepage": "https://github.com/kwe-defi/utils.js/tree/master/packages/x-randomvalues#readme",
+  "license": "Apache-2.0",
+  "maintainers": [],
+  "name": "@krypto-wealth/x-randomvalues",
+  "repository": {
+    "directory": "packages/x-randomvalues",
+    "type": "git",
+    "url": "https://github.com/kwe-defi/utils.js.git"
+  },
+  "sideEffects": false,
+  "type": "module",
+  "version": "7.8.2",
+  "browser": "browser.js",
+  "main": "node.js",
+  "react-native": "react-native.js",
+  "dependencies": {
+    "@babel/runtime": "^7.16.0",
+    "@krypto-wealth/x-global": "7.8.2"
+  },
+  "devDependencies": {
+    "@types/react-native": "^0.66.2"
+  }
+}
