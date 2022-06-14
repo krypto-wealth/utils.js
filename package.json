@@ -1,17 +1,17 @@
 {
   "author": "Kwe Finance",
-  "bugs": "https://github.com/kwe-defi/utils.js/issues",
-  "homepage": "https://github.com/kwe-defi/utils.js#readme",
+  "bugs": "https://github.com/krypto-wealth/utils.js/issues",
+  "homepage": "https://github.com/krypto-wealth/utils.js#readme",
   "license": "Apache-2",
   "packageManager": "yarn@3.0.1",
-  "private": true,
+  "private": false,
   "repository": {
     "type": "git",
-    "url": "https://github.com/kwe-defi/utils.js.git"
+    "url": "https://github.com/krypto-wealth/utils.js.git"
   },
   "sideEffects": false,
   "version": "7.8.2",
-  "workspaces": [
+  "workspaces": [ls
     "packages/*"
   ],
   "scripts": {

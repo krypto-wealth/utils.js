@@ -1,18 +1,18 @@
 {
   "author": "Kwe Finance",
-  "bugs": "https://github.com/kwe-defi/utils.js/issues",
+  "bugs": "https://github.com/krypto-wealth/utils.js/issues",
   "contributors": [],
   "engines": {
     "node": ">=14.0.0"
   },
-  "homepage": "https://github.com/kwe-defi/utils.js/tree/master/packages/hw-ledger-transports#readme",
+  "homepage": "https://github.com/krypto-wealth/utils.js/tree/master/packages/hw-ledger-transports#readme",
   "license": "Apache-2.0",
   "maintainers": [],
   "name": "@krypto-wealth/hw-ledger-transports",
   "repository": {
     "directory": "packages/hw-ledger-transports",
     "type": "git",
-    "url": "https://github.com/kwe-defi/utils.js.git"
+    "url": "https://github.com/krypto-wealth/utils.js.git"
   },
   "sideEffects": false,
   "type": "module",

@@ -1,4 +1,4 @@
-[![kwe-defi](https://img.shields.io/badge/kwe--defi-js-blueviolet)](https://docs.kwe.finance/docs/developers/js_libraries/#kwejs)
+[![krypto-wealth](https://img.shields.io/badge/kwe--defi-js-blueviolet)](https://docs.kwe.finance/docs/developers/js_libraries/#kwejs)
 ![license](https://img.shields.io/badge/License-Apache%202.0-blue?logo=apache&style=flat-square)
 [![npm](https://img.shields.io/npm/v/@krypto-wealth/util?logo=npm&style=flat-square)](https://www.npmjs.com/package/@krypto-wealth/util)
 [![beta](https://img.shields.io/npm/v/@krypto-wealth/util/beta?label=beta&logo=npm&style=flat-square)](https://www.npmjs.com/package/@krypto-wealth/util)
@@ -19,11 +19,11 @@ This repository is split up into a number of internal packages, namely utilities
 
 Contributions are welcome!
 
-To start off, this repo (along with others in the [@krypto-wealth](https://github.com/kwe-defi/) family) uses yarn workspaces to organise the code. As such, after cloning, its dependencies _should_ be installed via `yarn`, not via npm; the latter will result in broken dependencies.
+To start off, this repo (along with others in the [@krypto-wealth](https://github.com/krypto-wealth/) family) uses yarn workspaces to organise the code. As such, after cloning, its dependencies _should_ be installed via `yarn`, not via npm; the latter will result in broken dependencies.
 
 To get started -
 
-1. Clone the repo locally, via `git clone https://github.com/kwe-defi/utils.js <optional local path>`
+1. Clone the repo locally, via `git clone https://github.com/krypto-wealth/utils.js <optional local path>`
 2. Ensure that you have a recent version of Node.js, for development purposes [Node 10](https://nodejs.org/en/) is recommended.
 3. Ensure that you have a recent version of Yarn, for development purposes [Yarn >=1.10.1](https://yarnpkg.com/docs/install) is required.
 4. Install the dependencies by running `yarn`

@@ -1,19 +1,19 @@
 {
   "author": "Kwe Finance",
-  "bugs": "https://github.com/kwe-defi/utils.js/issues",
+  "bugs": "https://github.com/krypto-wealth/utils.js/issues",
   "contributors": [],
   "description": "A cross-environment WebSocket replacement",
   "engines": {
     "node": ">=14.0.0"
   },
-  "homepage": "https://github.com/kwe-defi/utils.js/tree/master/packages/x-ws#readme",
+  "homepage": "https://github.com/krypto-wealth/utils.js/tree/master/packages/x-ws#readme",
   "license": "Apache-2.0",
   "maintainers": [],
   "name": "@krypto-wealth/x-ws",
   "repository": {
     "directory": "packages/x-ws",
     "type": "git",
-    "url": "https://github.com/kwe-defi/utils.js.git"
+    "url": "https://github.com/krypto-wealth/utils.js.git"
   },
   "sideEffects": false,
   "type": "module",
